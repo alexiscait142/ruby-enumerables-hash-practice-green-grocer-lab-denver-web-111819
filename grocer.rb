@@ -25,8 +25,8 @@ def apply_coupons(cart, coupons)
       elsif cart[:item][:count] >= coupon[:num] && cart["#{item} W/COUPON"]
       
       
-    
     end
+  end
 end
 
 def apply_clearance(cart)
