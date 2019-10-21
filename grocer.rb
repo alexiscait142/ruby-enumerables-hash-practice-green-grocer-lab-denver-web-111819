@@ -11,6 +11,7 @@ def consolidate_cart(cart)
     cart_hash[:count] = 1
   end
 end
+end
 
 def apply_coupons(cart, coupons)
   # code here
