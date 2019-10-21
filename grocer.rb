@@ -47,4 +47,5 @@ def checkout(cart, coupons)
   applied_coupons = apply_coupons(hash, coupons)
   applied_clearance = apply_clearance(applied_coupons)
   total = applied_coupons.reduce(0) {|acc, (key, value)| acc += value[:price] * value[:count]}
+  discount_total = total *
 end
