@@ -6,7 +6,7 @@ def consolidate_cart(cart)
   if cart_hash.has_key?(item_name)
     item_name[:count] += 1
   else
-    item_name[:count] = 1
+    cart_hash[item_name] = item_stats
   end
 end
 
