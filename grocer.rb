@@ -1,6 +1,6 @@
 def consolidate_cart(cart)
   cart_hash = Hash[cart.each{|item| item}]
-  item_name = item.key[0]
+  item_name = item.keys[0]
   
 end
 
