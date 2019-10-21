@@ -1,7 +1,7 @@
 def consolidate_cart(cart)
   cart_hash = Hash[cart.each{|item| item}]
   item_name = item.keys[0]
-  item_stats = item.value[0]
+  item_stats = item.values[0]
 end
 
 def apply_coupons(cart, coupons)
