@@ -3,7 +3,7 @@ def consolidate_cart(cart)
   item_name = item.keys[0]
   item_stats = item.values[0]
   
-  if cart_hash.has_key?
+  if cart_hash.has_key?(item_name)
 end
 
 def apply_coupons(cart, coupons)
