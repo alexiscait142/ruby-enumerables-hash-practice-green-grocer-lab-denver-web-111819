@@ -36,6 +36,9 @@ end
 
 def apply_clearance(cart)
   cart.each |product_name, stats|
+  if
+end
+cart
 end
 
 
