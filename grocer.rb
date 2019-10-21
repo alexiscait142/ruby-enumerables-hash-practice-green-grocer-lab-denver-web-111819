@@ -7,7 +7,9 @@ def consolidate_cart(cart)
     item_name[:count] += 1
   else
     cart_hash[item_name] = item_stats
+    cart_hash[:count] = 1
   end
+  cart_hash
 end
 
 def apply_coupons(cart, coupons)
