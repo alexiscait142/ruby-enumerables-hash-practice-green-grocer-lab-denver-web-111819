@@ -1,5 +1,5 @@
 def consolidate_cart(cart)
-  cart_hash = Hash{
+  cart_hash = Hash[cart.collect{}]
 end
 
 def apply_coupons(cart, coupons)
