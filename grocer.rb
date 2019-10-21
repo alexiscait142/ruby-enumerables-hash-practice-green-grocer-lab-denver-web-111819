@@ -1,6 +1,6 @@
 def consolidate_cart(cart)
   cart_hash = {}
-  Hash[cart.each{|item| item}]
+  cart.each do |item|
   item_name = item.keys[0]
   item_stats = item.values[0]
   
