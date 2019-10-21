@@ -35,7 +35,7 @@ end
 
 
 def apply_clearance(cart)
-  
+  cart.each |item|
 end
 
 
