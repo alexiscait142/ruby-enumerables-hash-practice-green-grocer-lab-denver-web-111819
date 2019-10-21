@@ -16,6 +16,7 @@ end
 cart_hash
 end
 
+
 def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     item = coupon[:item]
@@ -32,9 +33,11 @@ def apply_coupons(cart, coupons)
   cart
 end
 
+
 def apply_clearance(cart)
   
 end
+
 
 def checkout(cart, coupons)
   # code here
